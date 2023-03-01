@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khaled Mohamed | Social Media Manager | Portfolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="./output.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@100;200;400&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/90bcf6ebe6.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-fixed">
+
+    <!-- To-Top -->
+
+    <a href="#" class="to-top sm:hidden md:flex z-50">
+        <i class="fas fa-chevron-up sm:hidden"></i>
+    </a>
+
+    <!-- Navbar -->
+    <nav id="nav" class="relative rounded-lg z-10 backdrop-blur-[2px] mx-auto p-6 selector">
+
+        <div class="flex items-center justify-between">
+            <!-- logo -->
+            <div class="pt-2">
+                <a href="index.html"
+                    class="text-2xl md:flex font-play font-bold hover:text-gray-200 md:ml-36 ml-0 text-white duration-300 cursor-pointer">
+                    Khaled
+                    Mohamed
+                </a>
+
+            </div>
+            <!-- menu items -->
+            <div class="hidden md:flex space-x-10 font-mont mr-20">
+                <a href="index.html" class="hover:text-gray-200 text-white transition duration-300"> HOME</a>
+                <a href="#what-i-do" class="hover:text-gray-200 text-white transition duration-300">
+                    SERVICES</a>
+                <a href="#about" class="hover:text-gray-200 text-white transition duration-300"> ABOUT</a>
+                <a href="#testimonials" class="hover:text-gray-200 text-white transition duration-300">
+                    WORK</a>
+                <a onclick="openContact()"
+                    class="hover:text-gray-200 text-white transition duration-300 cursor-pointer">
+                    CONTACT</a>
+            </div>
+
+            <!-- Hamburger Icon -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none text-white mt-5 text-right">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md rounded-md
+                ">
+                <a href="index.html" class="font-bold transition duration-300">
+                    HOME</a>
+                <a href="#what-i-do" class="font-bold transition duration-300">
+                    SERVICES</a>
+                <a href="#about" class="font-bold transition duration-300">
+                    ABOUT</a>
+                <a href="#testimonials" class="font-bold transition duration-300">
+                    WORK</a>
+                <a onclick="openContact()" class="font-bold transition duration-300 cursor-pointer">
+                    CONTACT</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero-Section -->
+    <section class="selector">
+        <div class="container max-w-7xl md:px-40 sm:px-0 items-center text-center md:text-left mt-32">
+            <h1 class="text-white text-4xl md:text-7xl font-bold mt-3">
+                Khaled Mohamed</h1>
+            <h4 class="text-gray-300 font-bold text-lg md:text-4xl mt-5">I develope strategies to increase
+                awareness and
+                revenue for your business </h4>
+            <p class="text-gray-200 font-lora text-xs md:text-xl mt-5">I’m a
+                <span class="auto-type text-white"></span> with the passion in finding strategies and solutions based on
+                client
+                goals
+            </p>
+            <div class="mt-12 flex space-x-7">
+
+                <span>
+                    <button class="button" onclick="openContact()">LET'S
+                        TALK!</button>
+                </span>
+                <span>
+                    <button class="button" onclick="openContactMe()">Contact Me Through</button>
+                </span>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- What-I-Do -->
+    <div class="selector">
+        <div class="container max-w-6xl px-5 flex flex-col mx-auto items-center text-center mt-32 justify-center">
+            <h1 class="text-gray-200 text-3xl font-bold mt-2 flex items-center justify-center">
+                What I Do
+            </h1>
+
+            <div class="relative md:flex items-center justify-center mt-12 md:space-x-5 selector">
+                <!-- First-Skill -->
+                <div
+                    class="md:w-[350px] md:h-[400px] sm:w-[350px] sm:h-[300px] bg-transparent hover:bg-transparent hover:shadow-white shadow-2xl rounded-lg text-white hover:-translate-y-3 transition duration-500 mt-12 md:mt-0">
+
+                    <img class="w-[128px] -mb-5 text-center mx-auto flex items-center justify-center"
+                        src="./pngwing.com (1).png">
+
+                    <h4 class="font-bold md:text-2xl text-xl md:pt-12 pt-10">Digital Marketing Strategy
+                        <br>
+                    </h4>
+
+                    <p class="md:text-sm text-xs text-center md:mt-6 mb-7 text-gray-200 font-mont font-bold m-2">
+                        Providing market research using digital channels to achieve marketing goals and boost business
+                        objectives.
+                        Will help you reach customers efficiently while focusing on your growth rates using the
+                        omnichannel
+                        strategy.
+                    </p>
+                </div>
+
+                <!-- Second-Skill -->
+                <div
+                    class="md:w-[350px] md:h-[400px] sm:w-[350px] sm:h-[300px] bg-transparent hover:bg-transparent hover:shadow-white shadow-2xl rounded-lg text-white hover:-translate-y-3 transition duration-500 mt-12 md:mt-0">
+
+                    <img class="w-1/2 -mb-5 text-center mx-auto flex items-center justify-center"
+                        src="./kisspng-social-media-marketing-digital-marketing-social-me-computer-web-5a6ad933a0dc49.8032244215169518596589.png">
+
+
+                    <h4 class="font-bold md:text-2xl text-xl md:pt-14 pt-10">Social Media Marketing
+                    </h4>
+
+                    <p class="md:text-sm text-xs text-center md:mt-6 mb-7 text-gray-200 font-mont font-bold m-2">
+                        Using Facebook, Instagram, Tiktok, LinkedIn, Twitter, and websites to promote a product or
+                        service.
+                        It involves creating
+                        and sharing content on social media networks, building brand awareness, and engaging with a
+                        target
+                        audience to achieve
+                        marketing and branding goals.
+                    </p>
+                </div>
+                <!-- Third-Skill -->
+                <div
+                    class="md:w-[350px] md:h-[400px] sm:w-[350px] sm:h-[300px] bg-transparent hover:bg-transparent hover:shadow-white shadow-2xl rounded-lg text-white hover:-translate-y-3 transition duration-500 mt-12 md:mt-0">
+
+                    <img class="w-1/2 -mb-5 text-center mx-auto flex items-center justify-center" src="./pngwing.png">
+
+
+                    <h4 class="font-bold md:text-2xl text-xl md:pt-10 pt-10">PPC Marketing
+                    </h4>
+
+                    <p class="md:text-sm text-xs text-center md:mt-6 mb-7 text-gray-200 font-mont font-bold m-2">
+                        Using the PPC method through Google ads, Bing ads, and many more platforms to increase
+                        visibility,
+                        targeted advertising,
+                        and cost-effective, measurable results which allow businesses to bid on specific keywords or
+                        phrases
+                        that are relevant
+                        to their target audience.
+                    </p>
+                </div>
+            </div>
+
+            <div class="relative md:flex items-center justify-center mt-12 md:space-x-5 selector">
+
+                <!-- Fourth-Skill -->
+                <div
+                    class="md:w-[350px] md:h-[400px] sm:w-[350px] sm:h-[300px] bg-transparent hover:bg-transparent hover:shadow-white shadow-2xl rounded-lg text-white hover:-translate-y-3 transition duration-500 mt-12 md:mt-0">
+
+                    <img class="w-[128px] -mb-5 text-center mx-auto flex items-center justify-center"
+                        src="./pngwing.com.png">
+
+
+                    <h4 class="font-bold md:text-2xl text-xl md:pt-16 pt-10">CRM Automation
+                        <br>
+                    </h4>
+
+                    <p class="md:text-sm text-xs text-center md:mt-6 mb-7 text-gray-200 font-mont font-bold m-2">
+                        Increase your customer lifetime value and brand loyalty.
+                        Keep your customers engaged by increasing their CLTV,
+                        boosting revenue and sustaining your business.
+                    </p>
+                </div>
+
+                <!-- Fifth-Skill -->
+                <div
+                    class="md:w-[350px] md:h-[400px] sm:w-[350px] sm:h-[300px] bg-transparent hover:bg-transparent hover:shadow-white shadow-2xl rounded-lg text-white hover:-translate-y-3 transition duration-500 mt-12 md:mt-0">
+
+                    <img class="w-[128px] -mb-5 text-center mx-auto flex items-center justify-center"
+                        src="./pngwing.com (3).png">
+
+
+                    <h4 class="font-bold md:text-2xl text-xl md:pt-14 pt-10">Technology Integeration
+                    </h4>
+
+                    <p class="md:text-sm text-xs text-center md:mt-6 mb-7 text-gray-200 font-mont font-bold m-2">
+                        Get the best tracking tools for your marketing and data.
+                        We integrate all vital technology infrastructures so you
+                        can access more marketing and business analysis,
+                        advanced channel tracking and targeting capabilities.
+                    </p>
+                </div>
+                <!-- Sixth-Skill -->
+                <div
+                    class="md:w-[350px] md:h-[400px] sm:w-[350px] sm:h-[300px] bg-transparent hover:bg-transparent hover:shadow-white shadow-2xl rounded-lg text-white hover:-translate-y-3 transition duration-500 mt-12 md:mt-0">
+
+                    <img class="w-1/2 -mb-5 text-center mx-auto flex items-center justify-center"
+                        src="./pngwing.com (2).png">
+
+                    <h4 class="font-bold md:text-2xl text-xl md:pt-14 pt-10">Data Analytics
+                        <br>
+                    </h4>
+
+                    <p class="md:text-sm text-xs text-center md:mt-6 mb-7 text-gray-200 font-mont font-bold m-2">
+                        Analyse your current online and offline marketing
+                        performance to improve your business.you can collect & see your data at a glance for
+                        uncomplicated decision-making and view insights to
+                        improve marketing processes. We also provide
+                        consultation for growth opportunities.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About-Section -->
+    <section id="about" class="selector">
+        <div
+            class="container max-w-6xl px-5 mx-auto items-center md:text-left text-center mt-44 justify-center mb-56 md:mb-0">
+            <h1 class="text-gray-200 text-4xl font-bold mt-2 flex items-center justify-center">
+                About Me
+            </h1>
+            <h4 class="text-gray-300 font-mont font-bold text-2xl w-full md:text-4xl mt-12 md:-ml-0 text-left">
+                A <span class="text-white font-bold">Digital Marketer</span>
+            </h4>
+            <div
+                class="md:w-[390px] sm:flex-col md:hidden relative h-1/2 bg-slate-800 hover:bg-gray-200 rounded-lg hover:scale-100 transition ease-in-out delay-150 shadow-xl hover:shadow-white hover:-translate-y-2 md:translate-x-20 duration-500 ... mt-6 md:mt-0">
+                <img src="./WhatsApp Image 2023-02-24 at 9.17.54 PM (2).jpeg"
+                    class="hover:scale-105 transition duration-700 hover:translate-y-1 rounded-md">
+            </div>
+
+            <div class="md:flex md:space-x-20 sm:space-x-0">
+                <p class="text-gray-300 sm:font-bold font-mont text-base md:w-[50%] mt-5 text-left">
+                    I'm a performance marketing and digital advertising professional with over 7 years of experience
+                    in
+                    the field. I have
+                    successfully spearheaded the success of 30 brands across the globe through the planning and
+                    execution of data-driven
+                    strategies across multiple online channels, including SEM, display, social media ads, and CRM.
+                    <br><br> My practical experience in web tracking, analytics, and automated
+                    dashboards has
+                    allowed me to analyze the effectiveness
+                    of my marketing efforts and make data-driven decisions to optimize and improve performance. I am
+                    a results-driven
+                    individual with a strong track record of success, and my ability to work effectively with
+                    diverse teams and stakeholders
+                    has been a key factor in my accomplishments.
+
+                    <br><br>
+
+                    I am passionate about leveraging the latest technologies and industry best practices to create
+                    effective marketing
+                    campaigns that drive business growth. I am excited to bring my skills and experience and make a
+                    meaningful contribution
+                    to the company.
+                </p>
+                <div>
+                    <img src="./WhatsApp Image 2023-02-24 at 9.17.54 PM (2).jpeg"
+                        class="hover:scale-105 transition duration-700 hover:translate-y-1 rounded-md md:w-[450px] md:h-[470px] mt-4 object-cover hidden md:flex shadow-xl hover:shadow-white">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <div class="selector">
+        <h1 class="text-gray-200 text-4xl -mt-10 md:mt-44 font-bold flex items-center justify-center">
+            Testimonials
+        </h1>
+        <div id="testimonials" class="mt-80 md:mt-0">
+            <div class="wrapper">
+                <div class="testimonial-container" id="testimonial-container"></div>
+                <button id="prev">&lt;</button>
+                <button id="next">&gt;</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="selector">
+        <div class="container px-5 mx-auto items-center text-center justify-center mb-9 selector">
+            <h1 class="text-gray-100 md:text-3xl text-2xl font-play font-bold mt-2 text-center">
+                Wanna Grow Your Business?
+            </h1>
+
+            <h4 class="text-gray-200 text-center items-center font-mont font-bold text-sm md:text-lg mt-5">
+                Got a question or proposal, or just want
+                to say hello? Go ahead.
+            </h4>
+
+            <div class="flex mt-7 items-center justify-center">
+                <button class="button" onclick="openContact()">LET'S
+                    TALK!
+                </button>
+            </div>
+            <div class="flex items-center justify-center">
+                <a href="mailto:khaled.asia20@gmail.com"
+                    class="text-gray-200 text-center font-mont font-bold text-base md:text-lg mt-5 duration-300">
+                    khaled.asia20@gmail.com
+                </a>
+            </div>
+
+            <div class="space-x-6 text-white text-3xl mt-8 flex mx-auto items-center justify-center ">
+                <a href="tel:+601164108658" target="_blank">
+                    <img src="./phone-call.png"
+                        class="mx-auto transition ease-in-out hover:-translate-y-1 hover:scale-110 w-[40px] h-[40px] duration-500 ..."></img>
+                </a>
+
+                <a href="https://wa.me/+6011-64108658" target="_blank">
+                    <img src="./whatsapp.png"
+                        class="mx-auto transition ease-in-out hover:-translate-y-1 hover:scale-110 w-[40px] h-[40px] duration-500 ..."></img>
+                </a>
+                <a href="https://t.me/+601164108658" target="_blank">
+                    <img src="icons8-telegram-app-240.png"
+                        class="mx-auto transition ease-in-out hover:-translate-y-1 hover:scale-110 w-[48px] h-[48px] duration-500 ..."></img>
+                </a>
+
+                <a href="https://www.linkedin.com/in/khaledmohamed95/" target="_blank">
+                    <img src="linkedin.png"
+                        class="mx-auto imga transition ease-in-out hover:-translate-y-1 hover:scale-110 w-[40px] h-[40px] duration-500 ..."></img>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact -->
+    <dialog id="contact" class="bg-transparent">
+
+        <div class="container w-[80vw] md:w-full mx-auto my-20 animation bg-white rounded-lg">
+            <div class="p-5 space-y-5 rounded-lg">
+                <i class="fa-solid fa-xmark float-right text-xl cursor-pointer hover:text-gray-600 duration-300"
+                    onclick="closeContact()"></i>
+                <h4 class="text-center get text-3xl text-blue-800">Get In Touch</h4>
+
+                <form name="contact-to-google-sheet">
+                    <div class="grid grid-cols-2 gap-5 md:w-[450px]">
+                        <input type="button" autofocus="true" class="-mt-96" />
+
+                        <input type="name" name="Name"
+                            class="border rounded-md border-gray-500 px-4 py-2 focus:outline-none focus:border-emerald-600 col-span-2"
+                            placeholder="Name" id="contactName" onkeyup="validateName()" />
+                        <span id="nameError" class="text-red-500"></span>
+
+                        <input type="text" name="Email"
+                            class="border rounded-md border-gray-500 px-4 py-2 focus:outline-none focus:border-emerald-600 col-span-2"
+                            placeholder="Email" id="contactEmail" onkeyup="validateEmail()" />
+                        <span id="emailError" class="text-red-500"></span>
+
+                        <input type="text" name="Phone"
+                            class="border rounded-md border-gray-500 px-4 py-2 focus:outline-none focus:border-emerald-600 col-span-2"
+                            placeholder="Phone no. (Optional)" id="contactEmail" onkeyup="validateEmail()" />
+
+                        <label for="" class="col-span-2">What Services You Need?</label>
+
+                        <select name="Service" id="service"
+                            class="border rounded-md border-gray-500 px-1 sm:px-0 sm:py-1 focus:outline-none focus:border-blue-800 col-span-2 text-gray-500">
+                            <option name="---" value="---">---</option>
+                            <option name="Digital Marketing Strategy" value="Digital Marketing Strategy">Digital
+                                Marketing Strategy</option>
+                            <option name="Social Media Marketing" value="Social Media Marketing">Social Media Marketing
+                            </option>
+                            <option name="PPC Marketing" value="PPC Marketing">PPC Marketing</option>
+                            <option name="CRM Automation" value="CRM Automation">CRM Automation</option>
+                            <option name="Technology Integration" value="Technology Integration">Technology Integration
+                            </option>
+                            <option name="Data Analytics" value="Data Analytics">Data Analytics</option>
+                        </select>
+
+
+                        <!-- <map name="Service" class="space-y-2 rounded-md">
+                            <div
+                                class="col-span-2 flex space-x-2 sm:space-x-0 md:text-sm text-xs sm:flex-col space-y-2">
+
+                                <div class="flex space-x-2">
+                                    <input type="checkbox" id="Digital Marketing Strategy" name="Digital">
+                                    <label for="Digital Marketing Strategy">Digital Marketing Strategy
+                                    </label>
+                                </div>
+
+                                <div class="flex space-x-2">
+                                    <input type="checkbox" id="Social Media Marketing" name="Social">
+                                    <label for="Social Media Marketing">Social Media Marketing
+                                    </label>
+                                </div>
+
+                                <div class="flex space-x-2">
+                                    <input type="checkbox" id="PPC Marketing" name="PPC">
+                                    <label for="ppc">PPC Marketing
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div
+                                class="col-span-2 flex space-x-2 sm:space-x-0 md:text-sm text-xs sm:flex-col space-y-2">
+
+                                <div class="flex space-x-2">
+                                    <input type="checkbox" id="CRM Automation" name="CRM" value="CRM Automation">
+                                    <label for="CRM Automation ">CRM Automation
+                                    </label>
+                                </div>
+
+                                <div class="flex space-x-2">
+
+                                    <input type="checkbox" id="Technology Integration" name="tech">
+                                    <label for="Technology Integration">Technology Integration
+                                    </label>
+                                </div>
+
+                                <div class="flex space-x-2">
+
+                                    <input type="checkbox" id="Data Analytics" name="data">
+                                    <label for="Data Analytics">Data Analytics</label>
+                                </div>
+                            </div>
+                        </map> -->
+
+
+                        <label for="" class="col-span-2">What
+                            is your budget?</label>
+
+                        <select name="Budget" id="budget"
+                            class="border rounded-md border-gray-500 px-1 sm:px-0 sm:py-1 focus:outline-none focus:border-blue-800 col-span-2 text-gray-500">
+                            <option name="---" value="---">---</option>
+                            <option name="$500-$1000" value="$500-$1000">$500 - $1,000</option>
+                            <option name="$1,000-$2,000" value="$1,000-$2,000">$1,000 - $2,000</option>
+                            <option name="$2,000-$3,500" value="$2,000-$3,500">$2,000 - $3,500</option>
+                        </select>
+
+                        <textarea cols="10" rows="5"
+                            class="border border-gray-500 px-4 py-2 focus:outline-none rounded-md focus:border-emerald-600 col-span-2"
+                            name="Message" type="message" placeholder="Write your message..." id="contactMessage"
+                            onkeyup="validateMessage()"></textarea>
+                        <span id="messageError" class="text-red-500"></span>
+
+                        <button id="button" onclick="return validateForm()"
+                            class="rounded-lg msg mt-8 md:mr-24 -ml-36 text-center  bg-blue-800 font-bold hover:bg-blue-600 text-white transition duration-500 p-3">Send
+                            Message</button>
+
+                        <span id="submitError" class="text-red-500 w-full"></span>
+                    </div>
+                    <span id="msg" class="text-emerald-400"></span>
+                </form>
+            </div>
+        </div>
+    </dialog>
+
+    <!-- Contact-Me-Through -->
+    <dialog id="contact-me" class="bg-transparent">
+
+        <div class="container w-[80vw] md:w-full mx-auto my-20 animation bg-white rounded-lg">
+            <div class="p-5 space-y-5 rounded-lg">
+                <i class="fa-solid fa-xmark float-right text-xl cursor-pointer hover:text-gray-600 duration-300"
+                    onclick="closeContactMe()"></i>
+                <br>
+                <h4 class="text-center get text-3xl text-blue-800">Contact Me Through</h4>
+                <div class="flex items-center justify-center">
+                    <a href="mailto:khaled.asia20@gmail.com"
+                        class="text-center font-mont font-bold text-lg md:text-lg mt-5 duration-300 hover:text-blue-800">
+                        khaled.asia20@gmail.com
+                    </a>
+                </div>
+                <br>
+
+                <div class="space-x-6 text-white text-3xl mt-8 flex mx-auto items-center justify-center ">
+                    <a href="tel:+601164108658" target="_blank">
+                        <img src="./phone-call.png"
+                            class="mx-auto transition ease-in-out hover:-translate-y-1 hover:scale-110 w-[40px] h-[40px] duration-500 ..."></img>
+                    </a>
+                    <a href="https://wa.me/+601164108658" target="_blank">
+                        <img src="./whatsapp.png"
+                            class="mx-auto transition ease-in-out hover:-translate-y-1 hover:scale-110 w-[40px] h-[40px] duration-500 ..."></img>
+                    </a>
+                    <a href="https://t.me/+601164108658" target="_blank">
+                        <img src="icons8-telegram-app-240.png"
+                            class="mx-auto transition ease-in-out hover:-translate-y-1 hover:scale-110 w-[48px] h-[48px] duration-500 ..."></img>
+                    </a>
+                    <a href="https://www.linkedin.com/in/khaledmohamed95/" target="_blank">
+                        <img src="linkedin.png"
+                            class="mx-auto transition ease-in-out hover:-translate-y-1 hover:scale-110 w-[40px] h-[40px] duration-500 ..."></img>
+                    </a>
+                </div>
+            </div>
+    </dialog>
+
+    <!-- Script -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $( document ).ready( function () {
+            $( '.carousel' ).carousel();
+        } );	
+    </script>
+
+    <script defer src="./app.js"></script>
+</body>
+
+</html>
